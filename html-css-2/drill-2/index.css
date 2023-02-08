@@ -66,4 +66,7 @@ button {
     box-shadow: 2px 2px 2px grey;
     white-space: normal;
     word-wrap: break-word;
+    margin: 10px;
+    letter-spacing: 5px;
+    color: navy
 }
