@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+#title {
+    background-color: rgb(59, 3, 59);
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: turquoise;
+    font-size: 22px;
+    padding: 0 20px;
+}
+button {
+    background-color: turquoise;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    border: solid white 2px;
+    margin-left: 20px;
+}
+#pagenav{
+    background-color: turquoise;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+}
+.titlenav {
+    margin: 2vw;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.formtitle {
+    background-color: rgb(59, 3, 59);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+    border-bottom: solid 2px turquoise;
+    position: sticky;
+    top: 0px;
+
+}
+
+.formbody {
+    background-color: rgb(41, 3, 41);
+    height: 18rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    padding: 5px 20px;
+}
+
+input {
+    width: 250px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-top: 3px;
+    border: solid turquoise 1px;
+    border-radius: 4px;
+}
+
+#shipping {
+    height: 14rem;
+}
+
+
+
+
+
+
+#register{
+    background-color: rgb(41, 3, 41);
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: turquoise;
+    height: 25vh;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+
+#footerTitle {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid;
+    padding: 25px;
+    font-size: 15px;
+}
+
+#resources{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    height: 90%;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-top: 10px;
+}
+#links{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-evenly;
+    padding-left: 8px;
+}
+
+#help {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

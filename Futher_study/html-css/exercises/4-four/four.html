@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="four.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section id="title">
+            <h1>Lemon Drop</h1>
+            <div>
+                <button>Register</button>
+                <button>Login</button>
+            </div>
+        </section>
+        <nav id="pagenav">
+            <a class="titlenav" href="">Personal</a>
+            <a class="titlenav" href="">Billing</a>
+            <a class="titlenav" href="">Shipping</a>
+            <a class="titlenav" href="">Preferences</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form" id="personal">
+            <h3 class="formtitle">Personal Information</h3>
+            <form class="formbody">
+                <label for="fname">First Name:<br><input type="text" id="fname" name="fname" placeholder="First Name"></label>
+                <label for="lname">Last Name:<br><input type="text" id="lname" name="lname" placeholder="Last Name"></label>
+                <label for="birthday">Birth Date:<br><input type="date" id="birthday" name="birthday"></label>
+                <label for="height">Height:<br><input type="text" id="height" name="height" placeholder="Feet' Inches&quot;"></label>
+                <label for="weight">Weight:<br><input type="text" id="weight" name="weight" placeholder="Pounds"></label>
+            </form>
+        </section>
+
+        <section class="form" id="billing">
+            <h3 class="formtitle">Billing Information</h3>
+            <form class="formbody">
+                <label for="card">Card Number:<br><input type="text" id="card" name="card" placeholder="card number"></label>
+                <label for="name">Name on Card:<br><input type="text" id="name" name="name" placeholder="full name"></label>
+                <label for="expDate">Experation Date:<br><input type="date" id="expDate" name="expDate"></label>
+                <label for="CVC">CVC Code (on back):<br><input type="text" id="CVC" name="CVC" placeholder="CVC code"></label>
+                <label for="billZip">Billing Zip Code:<br><input type="text" id="billZip" name="billZip" placeholder="zipcode"></label>
+            </form>
+        </section>
+
+        <section class="form">
+            <h3 class="formtitle">Shipping Information</h3>
+            <form class="formbody" id="shipping">
+                <label for="street">Street Address:<br><input type="text" id="street" name="street" placeholder=""></label>
+                <label for="city">City:<br><input type="text" id="city" name="city" placeholder=""></label>
+                <label for="state">State:<br><input type="text" id="state" name="state" placeholder=""></label>
+                <label for="shipZip">Zip Code:<br><input type="text" id="shipZip" name="shipZip" placeholder=""></label>
+            </form>
+        </section>
+
+        <section class="form" id="Preferences">
+            <h3 class="formtitle">Preferences</h3>
+            <div class="formbody">
+                
+            </div>
+        </section>
+        <div id="register">
+            <div><button>Register</button></div>
+        </div>  
+    </main>
+
+    <footer>
+        <div id="footerTitle">
+            <h4>Lemon Drop</h4>
+        </div>
+        <div id="resources">
+            <h4>Links</h4>
+            <nav id="links">
+                <a class="footerNav">One</a>
+                <a class="footerNav">Two</a>
+                <a class="footerNav">Three</a>
+            </nav>
+        </div>
+    </footer>
+
+    <nav id="help">?</nav>
+
+    <script src="four.js"></script>
+</body>
+</html>
